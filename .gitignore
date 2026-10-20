@@ -8,3 +8,8 @@
 
 *.wasm
 grammars
+
+# Temporarly (until we have built an LSP)
+Cargo.toml
+Cargo.lock
+src/
