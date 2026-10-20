@@ -14,4 +14,4 @@ repository = "https://github.com/Mapaor/zed-gnuplot"
 
 [grammars.gnuplot]
 repository = "https://github.com/dpezto/tree-sitter-gnuplot"
-commit = "c130f129b0d80362785eee89b28cd42ada5c67aa"
+rev = "c130f129b0d80362785eee89b28cd42ada5c67aa"
