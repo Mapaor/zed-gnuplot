@@ -1,0 +1,9 @@
+/target
+/Cargo.lock
+/zed-fortran
+/tree-sitter-gnuplot
+
+.DS_Store
+
+*.wasm
+grammars
