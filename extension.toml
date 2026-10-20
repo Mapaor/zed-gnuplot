@@ -13,5 +13,5 @@ repository = "https://github.com/Mapaor/zed-gnuplot"
 # language = "Gnuplot"
 
 [grammars.gnuplot]
-repository = "https://github.com/Mapaor/tree-sitter-gnuplot-wasm"
-# commit = ""
+repository = "https://github.com/dpezto/tree-sitter-gnuplot"
+commit = "c130f129b0d80362785eee89b28cd42ada5c67aa"

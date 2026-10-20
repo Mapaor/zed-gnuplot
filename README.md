@@ -14,7 +14,7 @@
 
 To help develop this extension, see [Developing Extensions](https://zed.dev/docs/extensions/developing-extensions) of Zed docs.
 
-This extension also internally uses [Mapaor/tree-sitter-gnuplot-wasm](https://github.com/Mapaor/tree-sitter-gnuplot-wasm) for gnuplot grammar, which is a fork from [dpezto/tree-sitter-gnuplot](https://github.com/dpezto/tree-sitter-gnuplot).
+This extension internally uses [dpezto/tree-sitter-gnuplot](https://github.com/dpezto/tree-sitter-gnuplot) for gnuplot grammar. Any issue with the tree sitter should be opened there.
 
 ## License
 MIT
