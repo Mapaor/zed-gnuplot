@@ -2,6 +2,7 @@
 /Cargo.lock
 /zed-fortran
 /tree-sitter-gnuplot
+/zed-docs
 
 .DS_Store
 
