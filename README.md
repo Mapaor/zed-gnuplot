@@ -12,7 +12,7 @@
 
 ### In the far future
 - [ ] Create from scratch a gnuplot LSP made with rust
-  - [ ] Use that LSP in this extension
+  - [ ] Use that LSP in this extension using the `zed_extension_api` rust crate
 
 ## How it works
 
