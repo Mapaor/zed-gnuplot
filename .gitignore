@@ -9,7 +9,7 @@
 *.wasm
 grammars
 
-# Temporarly (until we have built an LSP)
+# Until we build a custom gnuplot LSP, then we'll need a rust crate to use it (and will remove this from the gitignore)
 Cargo.toml
 Cargo.lock
-src/
+src/lib.rs
