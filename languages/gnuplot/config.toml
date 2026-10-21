@@ -4,6 +4,8 @@ grammar = "gnuplot"
 path_suffixes = ["gnu", "gp", "gnuplot", "plt", "plot"]
 line_comments = ["# "]
 autoclose_before = ";:.,=}])>"
+increase_indent_pattern = "^\\s*(?:\\}\\s*)?(?:if|while|do|else)\\b.*\\{\\s*$"
+decrease_indent_pattern = "^\\s*\\}"
 decrease_indent_patterns = [
     { pattern = "^\\s*else\\b", valid_after = ["if"] },
     { pattern = "^\\s*unset\\s+multiplot\\b", valid_after = ["multiplot"] },
