@@ -6,9 +6,13 @@
 ### Initial release
 - [x] Add syntax highlighting via Tree-sitter
 
+### In the near future
+- [ ] Wait for `folds.scm` support (issue [`#22703`](https://github.com/zed-industries/zed/issues/22703))
+  - [ ] Implement a `folds.scm` query for this extension.
+
 ### In the far future
-- [ ] Create a from-scratch gnuplot LSP with rust
-- [ ] Use the future LSP
+- [ ] Create from scratch a gnuplot LSP made with rust
+  - [ ] Use that future LSP in this extension
 
 ## How it works
 
