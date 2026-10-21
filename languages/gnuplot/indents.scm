@@ -3,7 +3,7 @@
 (cmd_if) @start.if
 
 ; Indent commands inside set multiplot - unset multiplot.
-; In gnuplot the `end` of a multiplot is optional
+; In gnuplot the `unset` of a multiplot is optional
 (multiplot_block
   (cmd_set) @start @start.multiplot
   (cmd_unset)? @end) @indent
