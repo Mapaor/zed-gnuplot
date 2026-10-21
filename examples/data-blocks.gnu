@@ -7,3 +7,4 @@ $POINTS << EOD
 EOD
 
 plot $POINTS using 1:2 with linespoints title "inline data"
+pause mouse close

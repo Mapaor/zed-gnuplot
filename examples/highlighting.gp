@@ -10,6 +10,7 @@ gaussian(x) = exp(-(x ** 2))
 plot [-2*pi:2*pi] \
     sinc(x) with lines lw 2 lc rgb "blue" title "user function", \
     gaussian(x) with lines dt 2 title "Gaussian"
+pause mouse close
 
 print sprintf("pi = %.3f; sqrt(4) = %.1f", pi, sqrt(4))
 

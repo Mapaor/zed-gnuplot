@@ -3,7 +3,7 @@
 # In settings.json: `{"languages":{"Gnuplot":{"colorize_brackets":true}}}`
 if (7 > 4) {
     if (2 > 4) {
-        if ()
+        print("Ok")
     } else {
         if (1 < 3) {
             print("Hi!")

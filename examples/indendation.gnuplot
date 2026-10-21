@@ -29,3 +29,4 @@ set multiplot layout 1,2 title "Trigonometric functions"
     plot sin(x) title "sin(x)"
     plot cos(x) title "cos(x)"
 unset multiplot
+pause mouse close
